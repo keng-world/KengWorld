@@ -1,1 +1,5 @@
 site_name: KengWorld
+
+nav:
+  - Home: index.md
+  - History: history.md

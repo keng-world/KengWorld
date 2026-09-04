@@ -1,0 +1,3 @@
+mkdocs-material
+mkdocs-blog-plugin
+mkdocs-git-revision-date-localized-plugin

@@ -6,4 +6,4 @@
 
 #### 页面链接
 - [理论](./theory/theoryIndex)
-- [角色](./character/characterIndex)
+- [角色](./character/charIndex)

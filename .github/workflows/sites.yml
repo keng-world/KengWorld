@@ -1,0 +1,42 @@
+name: Build and Deploy MkDocs Site
+
+on:
+  push:
+    branches: [ main ] # 可根据需要修改触发分支
+    paths: # 仅在文档相关文件变更时触发，可优化性能
+      - 'docs/**'
+      - 'mkdocs.yml'
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x' # 或指定版本如 '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs
+          # 如果使用 Material 主题或其他插件，在此一并安装
+          # pip install mkdocs-material
+
+      - name: Build the site
+        run: mkdocs build --clean # --clean 会清理旧的 site 目录
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages # 将生成的 site 内容推送到 gh-pages 分支

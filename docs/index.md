@@ -5,5 +5,5 @@
 祝一切安好
 
 #### 页面链接
-- [理论](./theory/theoryIndex)
-- [角色](./character/charIndex)
+- [理论](https://keng-world.github.io/KengWorld/theory/theoryIndex)
+- [角色](https://keng-world.github.io/KengWorld/character/charIndex)

@@ -7,3 +7,4 @@
 #### 页面链接
 - [理论](https://keng-world.github.io/KengWorld/theory/theoryIndex)
 - [角色](https://keng-world.github.io/KengWorld/character/charIndex)
+- [旧站点](https://pigpig2048.github.io/keng.com)

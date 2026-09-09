@@ -8,3 +8,5 @@
 - [理论](https://keng-world.github.io/KengWorld/theory/theoryIndex)
 - [角色](https://keng-world.github.io/KengWorld/character/charIndex)
 - [旧站点](https://pigpig2048.github.io/keng.com)
+
+可以接写脚本的小活(有偿)，QQ:464608437

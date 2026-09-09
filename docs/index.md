@@ -9,4 +9,4 @@
 - [角色](https://keng-world.github.io/KengWorld/character/charIndex)
 - [旧站点](https://pigpig2048.github.io/keng.com)
 
-可以接写脚本的小活(有偿)，QQ:464608437
+可以接写脚本的小活(有偿)，QQ:2153986079，微信:Enigmatica6Expert，也当是支持一下屑猪了谢谢
